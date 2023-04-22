@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <div id="loader">
+        <div class="div-loader"></div>
+    </div> -->
+    <header>
+        <a href="#" class="logo"><p>Cross <span>Dev</span></p></a>
+        <div class="menuToggle"></div>
+        <ul class="nav">
+            <li class="active">
+                <a href="#home">Home</a>
+                <!-- CAMBIAR ICONO POR TEXTO -->
+                <!-- <a href="#home">Casa</a> -->
+            </li>
+            <li>
+                <a href="#aboutme">About Me</a>
+                <!-- <a href="#aboutme">Acerca de mí</a> -->
+            </li>
+            <li><a href="#tech_skills">Skills</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    <main>
+        <section id="home">
+            <div class="content">
+                <p>Rubén Cruz</p>
+                <h2>Frontend Developer</h2>
+                <a href="#contact" class="btn">Contact Me</a>
+                <div class="icons">
+                    <a href="https://github.com/Cross-87" target="_blank" title="GitHub">
+                        <ion-icon name="logo-github" style="pointer-events: none;"></ion-icon>
+                    </a>
+                    <a href="cv/cv.html" target="_blank" title="Resume CV">
+                        <ion-icon name="document" style="pointer-events: none;"></ion-icon>
+                    </a>
+                </div>
+            </div>
+            <div class="container-photo-home">
+                <img src="images/personal-photo-home.png" alt="Personal photo" class="personal-photo-home">
+            </div>
+        </section>
+        <section id="aboutme">
+            <div class="secText">
+                <h2>About Me</h2>
+                <p>I am a current Information Technology student at the <abbr title="Universidad Autónoma de Nuevo León">"UANL"</abbr>. I am interested in all aspects of software development, but my true passion lies in creating visually appealing, user-friendly, and creatively designed websites. In addition, I have completed a technical degree in Graphic Design, which has allowed me to develop a keen eye for aesthetics.</p>
+            </div>
+            <div class="content">
+                <div class="imagen-personal">
+                    <img src="images/personal-photo-aboutme-1.jpg" alt="">
+                    <img src="images/personal-photo-aboutme-2.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        
+        <!-- SECTION ABOUT ME -->
+        <section id="tech_skills">
+            <div class="secText">
+                <h2>My greatest skills include the following.</h2>
+                <!-- <p>I have technical skills in different areas, such as: Development of applications and websites. Creation of interfaces and user experience (UX). Database design and information management. Management of version control tools. System administration and configuration.</p> -->
+                <h3>Technical skills <i class="fa-solid fa-laptop-code"></i></h3>
+            </div>
+            <div class="container assistance">
+                <div class="div-assistance">
+                    <div class="cursor-image">
+                        <img src="images/cursor.png" alt="" class="cursor">
+                    </div>
+                    <p>Hover over a layer in the house to show stack skills.</p>
+                </div>
+            </div>
+            <div class="container image house">
+                <div class="div image house">
+                    <img src="images/house.png" alt="" class="house-image">
+                    <div class="front-house"></div>
+                    <div class="back-house"></div>
+                    <div class="other-house"></div>
+                </div>
+            </div>
+            <div class="container aboutme">
+                <article class="card-aboutme frontend">
+                    <h2 class="title-card frontend">Frontend</h2>
+                    <ul>
+                        <li>
+                            <p>HTML</p>
+                            <i class="fa-brands fa-html5" style="color: #E44D26"></i>
+                        </li>
+                        <li>
+                            <p>CSS/SASS</p>
+                            <i class="fa-brands fa-css3-alt" style="color: #1572B6 ""></i>
+                        </li>
+                        <li>
+                            <p>BootStrap/Tailwind</p>
+                            <i class=" fa-brands fa-bootstrap" style="color: #7952B3  ""></i>
+                        </li>
+                        <li>
+                            <p>JavaScript</p>
+                            <i class=" fa-brands fa-square-js" style="color: #F7DF1E ""></i>
+                        </li>
+                        <!-- <li>
+                            <p>React/TypeScript</p>
+                            <i class=" fa-brands fa-react" style="color: #61DAFB"></i>
+                        </li> -->
+                    </ul>
+                </article>
+                <article class="card-aboutme backend">
+                    <h2 class="title-card backend">Backend</h2>
+                    <ul>
+                        <!-- <li>
+                            <p>Node.js</p>
+                            <i class="fa-brands fa-node-js" style="color: #3C873A"></i>
+                        </li>
+                        <li>
+                            <p>npm</p>
+                            <i class="fa-brands fa-npm" style="color: #CB3837"></i>
+                        </li> -->
+                        <li>
+                            <p>Python/Django</p>
+                            <i class="fa-brands fa-python" style="color: #4584b6"></i>
+                        </li>
+                        <li>
+                            <p>MySQL/Oracle</p>
+                            <i class="fa-solid fa-database" style="color: #F80000"></i>
+                        </li>
+                        <!-- <li>
+                            <p>MongoDB</p>
+                            <i class="fa-solid fa-server" style="color: #4DB33D"></i>
+                        </li> -->
+                    </ul>
+                </article>
+                <article class="card-aboutme other-skills">
+                    <h2 class="title-card other-skills">Other Skills</h2>
+                    <ul>
+                        <li>
+                            <p>Git</p>
+                            <i class="fa-brands fa-square-git" style="color: #F05032"></i>
+                        </li>
+                        <!-- <li>
+                            <p>AWS</p>
+                            <i class="fa-brands fa-aws" style="color: #FF9900"></i>
+                        </li> -->
+                        <li>
+                            <p>Terminal/Console</p>
+                            <i class="fa-solid fa-terminal" style="color: #4D4D4D"></i>
+                        </li>
+                        <!-- <li>
+                            <p>Testing</p>
+                            <i class="fa-solid fa-microscope" style="color: #FFD700"></i>
+                        </li>
+                        <li>
+                            <p>Web Security</p>
+                            <i class="fa-solid fa-shield-halved" style="color: #368ff4"></i>
+                        </li> -->
+                    </ul>
+                </article>
+            </div>
+        </section>
+        
+        <!-- END SECTION ABOUT ME -->
+        
+        <section id="social_skills">
+            <div class="secText">
+                <h2>My greatest skills include the following.</h2>
+               <!--  <p>In addition to my technical skills, I also have social skills that allow me to effectively interact with other people and work as a team. Some of these skills are:</p> -->
+               <h3>Social skills <i class="fa-solid fa-circle-user"></i></h3>
+            </div>
+            <div class="content">
+                <div class="container image man">
+                    <div class="div image man">
+                        <img src="images/man.png" alt="man image" class="man-image">
+                        <div class="man-hover"></div>
+                    </div>
+                </div>
+                <div class="container social">
+                    <article class="card-aboutme social">
+                        <h2 class="title-card social">Soft Skills</h2>
+                        <ul>
+                            <div class="social-part1">
+                                <li>
+                                    <p> Commitment.</p>
+                                    <i class="fa-solid fa-brain"></i>
+                                </li>
+                                <li>
+                                    <p> Resilient attitude.</p>
+                                    <i class="fa-solid fa-brain"></i>
+                                </li>
+                                <li>
+                                    <p> Service vocation.</p>
+                                    <i class="fa-solid fa-brain"></i>
+                                </li>
+                                <li>
+                                    <p> Intrapersonal and emotional intelligence.</p>
+                                    <i class="fa-solid fa-brain"></i>
+                                </li>
+                                <li>
+                                    <p> Proactive.</p>
+                                    <i class="fa-solid fa-brain"></i>
+                                </li>
+                            </div>
+                            <div class="social-part2">
+                                <li>
+                                    <p> Willingness to learn.</p>
+                                    <i class="fa-solid fa-people-arrows"></i>
+                                </li>
+                                <li>
+                                    <p> Knowledge of design principles.</p>
+                                    <i class="fa-solid fa-people-arrows"></i>
+                                </li>
+                                <li>
+                                    <p> Critical thinking.</p>
+                                    <i class="fa-solid fa-people-arrows"></i>
+                                </li>
+                                <li>
+                                    <p> Attention to detail.</p>
+                                    <i class="fa-solid fa-people-arrows"></i>
+                                </li>
+                                <li>
+                                    <p> Teamwork.</p>
+                                    <i class="fa-solid fa-people-arrows"></i>
+                                </li>
+                            </div>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="secText">
+                <h2>What I Am Great At</h2>
+                <p>I have various technological knowledge that I can use to serve in the following areas that I will mention.</p>
+            </div>
+            <div class="content">
+                <div class="servicesBx">
+                    <ion-icon name="logo-designernews"></ion-icon>
+                    <h3>Web Designing</h3>
+                </div>
+                <div class="servicesBx">
+                    <ion-icon name="code-outline"></ion-icon>
+                    <h3>Web Development</h3>
+                </div>
+                <div class="servicesBx">
+                    <ion-icon name="analytics-outline"></ion-icon>
+                    <h3>Data Analysis</h3>
+                </div>
+                <div class="servicesBx">
+                    <ion-icon name="cube-outline"></ion-icon>
+                    <h3>Media Content Design</h3>
+                </div>
+            </div>
+            <div class="center">
+                <a href="#contact" class="btn">Hire Me</a>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="secText">
+                <h2>Ways To Contact Me</h2>
+                <p>You can contact me either by filling out and sending the email form that you see below or you can also contact me via Whatsapp or Linkedin.</p>
+            </div>
+            <div class="content">
+                <a href="https://api.whatsapp.com/send?phone=+8126532767&text=Hola! que tal, te contacto por tu página web." target="_blank">
+                    <ion-icon name="logo-whatsapp" target="_blank"></ion-icon>Whatsapp
+                </a>
+                <a href="https://www.linkedin.com/in/rub%C3%A9n-alexis-cruz-qui%C3%B1ones-b71ab2249/">
+                    <ion-icon name="logo-linkedin" target="_blank"></ion-icon>LinkedIn
+                </a>
+                <form id="content-form" class="contact-form" action="mailto:racq_2002@outlook.com" method="POST" enctype="multipart/form-data">
+                    <input type="text" id="name" name="name" placeholder="Name" required>
+                    
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+               
+                    <!-- <h2 style="color: #fff;">Email</h2> -->
+                    <textarea id="message" name="message" placeholder="Message" required></textarea>
+                    
+                    <input type="hidden" name="CC" value="correo-electronico-del-visitante@ejemplo.com">
+    
+                    <input type="submit" value="Enviar">
+                  </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="center">
+            <p class="copyrights">All Rights Reserved &copy; 2023 <a href="#">Rubén Cruz</a>.</p>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/b33a7ffec1.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
