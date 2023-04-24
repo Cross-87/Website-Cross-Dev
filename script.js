@@ -1,4 +1,4 @@
-/* LOADER DE LA PÁGINA
+
   window.addEventListener("load", function() {
 
   var loader = document.getElementById("loader");
@@ -12,8 +12,8 @@
       header.style.opacity = 1; 
       main.style.opacity = 1; 
       footer.style.opacity = 1; 
-    }, 100);
-}); */
+    });
+});
 
 
 let list = document.querySelectorAll('.nav li');

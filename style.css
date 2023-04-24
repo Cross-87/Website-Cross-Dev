@@ -12,7 +12,7 @@ body {
     background: #2e2f34;
 }
 
-/* LOADER DE LA PÁGINA
+
 #loader {
     position: absolute;
     height: 100vh;
@@ -37,7 +37,7 @@ body {
 
   header, main, footer{
     opacity: 0;
-  } */
+  }
 
 header {
     position: fixed;
