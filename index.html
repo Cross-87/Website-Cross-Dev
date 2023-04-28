@@ -18,18 +18,22 @@
         <ul class="nav">
             <li class="active">
                 <a href="#home">Home</a>
-                <!-- CAMBIAR ICONO POR TEXTO -->
-                <!-- <a href="#home">Casa</a> -->
             </li>
             <li>
                 <a href="#aboutme">About Me</a>
-                <!-- <a href="#aboutme">Acerca de mí</a> -->
             </li>
-            <li><a href="#tech_skills">Skills</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li>
+                <a href="#tech_skills">Skills</a>
+            </li>
+            <li>
+                <a href="#services">Services</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
         </ul>
     </header>
+
     <main>
         <section id="home">
             <div class="content">
@@ -49,6 +53,7 @@
                 <img src="images/personal-photo-home.png" alt="Personal photo" class="personal-photo-home">
             </div>
         </section>
+
         <section id="aboutme">
             <div class="secText">
                 <h2>About Me</h2>
@@ -62,11 +67,9 @@
             </div>
         </section>
         
-        <!-- SECTION ABOUT ME -->
         <section id="tech_skills">
             <div class="secText">
                 <h2>My greatest skills include the following.</h2>
-                <!-- <p>I have technical skills in different areas, such as: Development of applications and websites. Creation of interfaces and user experience (UX). Database design and information management. Management of version control tools. System administration and configuration.</p> -->
                 <h3>Technical skills <i class="fa-solid fa-laptop-code"></i></h3>
             </div>
             <div class="container assistance">
@@ -105,23 +108,23 @@
                             <p>JavaScript</p>
                             <i class=" fa-brands fa-square-js" style="color: #F7DF1E ""></i>
                         </li>
-                        <!-- <li>
+                        <li>
                             <p>React/TypeScript</p>
                             <i class=" fa-brands fa-react" style="color: #61DAFB"></i>
-                        </li> -->
+                        </li>
                     </ul>
                 </article>
                 <article class="card-aboutme backend">
                     <h2 class="title-card backend">Backend</h2>
                     <ul>
-                        <!-- <li>
+                        <li>
                             <p>Node.js</p>
                             <i class="fa-brands fa-node-js" style="color: #3C873A"></i>
                         </li>
                         <li>
                             <p>npm</p>
                             <i class="fa-brands fa-npm" style="color: #CB3837"></i>
-                        </li> -->
+                        </li>
                         <li>
                             <p>Python/Django</p>
                             <i class="fa-brands fa-python" style="color: #4584b6"></i>
@@ -130,10 +133,10 @@
                             <p>MySQL/Oracle</p>
                             <i class="fa-solid fa-database" style="color: #F80000"></i>
                         </li>
-                        <!-- <li>
+                        <li>
                             <p>MongoDB</p>
                             <i class="fa-solid fa-server" style="color: #4DB33D"></i>
-                        </li> -->
+                        </li>
                     </ul>
                 </article>
                 <article class="card-aboutme other-skills">
@@ -143,33 +146,18 @@
                             <p>Git</p>
                             <i class="fa-brands fa-square-git" style="color: #F05032"></i>
                         </li>
-                        <!-- <li>
-                            <p>AWS</p>
-                            <i class="fa-brands fa-aws" style="color: #FF9900"></i>
-                        </li> -->
                         <li>
                             <p>Terminal/Console</p>
                             <i class="fa-solid fa-terminal" style="color: #4D4D4D"></i>
                         </li>
-                        <!-- <li>
-                            <p>Testing</p>
-                            <i class="fa-solid fa-microscope" style="color: #FFD700"></i>
-                        </li>
-                        <li>
-                            <p>Web Security</p>
-                            <i class="fa-solid fa-shield-halved" style="color: #368ff4"></i>
-                        </li> -->
                     </ul>
                 </article>
             </div>
         </section>
-        
-        <!-- END SECTION ABOUT ME -->
-        
+                
         <section id="social_skills">
             <div class="secText">
                 <h2>My greatest skills include the following.</h2>
-               <!--  <p>In addition to my technical skills, I also have social skills that allow me to effectively interact with other people and work as a team. Some of these skills are:</p> -->
                <h3>Social skills <i class="fa-solid fa-circle-user"></i></h3>
             </div>
             <div class="content">
@@ -260,10 +248,11 @@
                 <a href="#contact" class="btn">Hire Me</a>
             </div>
         </section>
+
         <section id="contact">
             <div class="secText">
                 <h2>Ways To Contact Me</h2>
-                <p>You can contact me either by filling out and sending the email form that you see below or you can also contact me via Whatsapp or Linkedin.</p>
+                <p>You can contact me either by filling out and sending the email or you can also contact me via Whatsapp or Linkedin.</p>
             </div>
             <div class="content">
                 <a href="https://api.whatsapp.com/send?phone=+8126532767&text=Hola! que tal, te contacto por tu página web." target="_blank">
@@ -272,25 +261,15 @@
                 <a href="https://www.linkedin.com/in/rub%C3%A9n-alexis-cruz-qui%C3%B1ones-b71ab2249/">
                     <ion-icon name="logo-linkedin" target="_blank"></ion-icon>LinkedIn
                 </a>
-                <form id="content-form" class="contact-form" action="mailto:racq_2002@outlook.com" method="POST" enctype="multipart/form-data">
-                    <input type="text" id="name" name="name" placeholder="Name" required>
-                    
-                    <input type="email" id="email" name="email" placeholder="Email" required>
-               
-                    <!-- <h2 style="color: #fff;">Email</h2> -->
-                    <textarea id="message" name="message" placeholder="Message" required></textarea>
-                    
-                    <input type="hidden" name="CC" value="correo-electronico-del-visitante@ejemplo.com">
-    
-                    <input type="submit" value="Enviar">
-                  </form>
+                <a href="mailto:racq_2002@outlook.com">
+                    <ion-icon name="mail" target="_blank"></ion-icon>Correo
+                </a>
             </div>
         </section>
     </main>
+
     <footer>
-        <div class="center">
-            <p class="copyrights">All Rights Reserved &copy; 2023 <a href="#">Rubén Cruz</a>.</p>
-        </div>
+        <p class="copyrights">All Rights Reserved &copy; 2023 <a href="#">Rubén Cruz</a>.</p>
     </footer>
 
     <script src="https://kit.fontawesome.com/b33a7ffec1.js" crossorigin="anonymous"></script>

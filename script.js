@@ -96,6 +96,3 @@ setInterval(function() {
   }
 }, 5500);
 
-
-
-/* HEADER LI ACTIVE FIXED */
