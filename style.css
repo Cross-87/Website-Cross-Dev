@@ -569,7 +569,7 @@ footer {
         padding: 10px 20px;
     }
     #home .container-photo-home .personal-photo-home {
-        width: 60%;
+        width: 50%;
     }
     .secText h2 {
         font-size: 2rem;
@@ -704,7 +704,9 @@ footer {
         left: 25%;
     }
     
-
+    #aboutme {
+        height: 120vh;
+    }
     #aboutme .imagen-personal {
         flex-direction: column;
         width: 300px;
@@ -719,9 +721,9 @@ footer {
         flex-direction: column;
     }
     #aboutme .imagen-personal {
-        flex-direction: column;
         width: 250px;
     }
+    
 }
 @media (max-width: 375px){
     #tech_skills .card-aboutme {
